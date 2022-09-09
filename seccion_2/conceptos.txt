@@ -1,0 +1,19 @@
+¿Que es Rreact?
+->Es una libreria que nos permites hacer aplicaciones
+->Trabaja con aplicaciones sencillas interminedias 
+->libreria Declarativa se puede usar patrones de diseñor
+-> Eficiente 
+->Predecible debido a que fluye en una sola via 
+->Componentes-> pequeñas piezas de codigo encapsuladas 
+->se puede hacer server-side con Node
+->Aplicaciones moviles con React Native
+
+->Babel se va a encargar de convertir cualquier codigo moderno a uno que sea soportado por cualquier
+navegador Web
+
+
+
+INTRODUCCION BABEL 
+
+-> Babel is a javaScript Compiler 
+->podemos usar las ultimas caracteristicas de java script sin preocuparnos de que el explorador no lo acepte 
