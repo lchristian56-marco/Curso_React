@@ -17,3 +17,5 @@ INTRODUCCION BABEL
 
 -> Babel is a javaScript Compiler 
 ->podemos usar las ultimas caracteristicas de java script sin preocuparnos de que el explorador no lo acepte 
+
+--> 
