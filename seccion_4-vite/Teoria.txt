@@ -1,0 +1,56 @@
+
+//¿Que son los componentes?
+-> Que es un componente React -> Pequeña pieza de codigo encapsulada re-utilizable que hace un trabajo en especifico, puede tener estado o no 
+    cada componente es responsable de una accion correspondiente, se puede tener un componente padre y este puede tener hijo.
+-> Estado -> Estado initial -> por primera vez se despliega el componente
+          -> Estado como se muestra la informacion del compoenente en algun momento del tiempo 
+
+//VITE 
+--> herramienta para frontend tooling para generar el projecto en react 
+
+//
+-->yarm para indepencias locales 
+-->npx para independencias globales 
+
+//ESTRUCTURA DE DIRECTORIOSA//
+--> con npm el package-lock.json -> nos dice como fue creada la dependencia de los modulos de node , no tocar manualmente,
+
+//
+->React podemos estructurar nuestros directorios como nosotros queramos
+
+//¿Que son los patrones de file system 
+-->
+
+//shortcuts
+-->rafc -> me crea una funcion para exportar hacia otras carpetas muy usado 
+//Retornar elementos de un componente -FRAGMENT 
+--> fragmento para retornar un grupo de elementos dentro de las etiquetas <fragment></fragment> 
+--> Para no utilizar las etiquetas fragment y queramos retornar un grupo de elementos se encierra el conjunto de elementos con 
+---> Esto equivale a un fragmento pero sin la necesidad de importar Fragment de react <> </> --> Esto equivale a un nodo padre 
+----> Mientras tengamos un nodo padre podremos devolver n cantidad de elementos 
+
+//Impresion de variables en el HTML 
+-->React no va a reprocesar o renderizar lo que este por fuera del componente
+-->si queremos usar un objeto debemos convertirlo primero con JSON.stringify( object ).
+-->dentro de { } -> Se pueden llamar a funciones
+
+//Comunicaciòn entre componentes - Props
+--> Properties que los funtional components reciben, properties que reciben la funcion
+-->las Props se reciben que es un objetos 
+--> Contexto -> cuando estamos en una app que usa un router y puede que el router le mande funciones a las properties o cierta informacion del contexto 
+donde corre el componente 
+
+//PROPTYPES 
+-->tipos de las properties -> si lo tenemos en vite no viene instalado por defecto en react packages si vienen por defectos esos paquetes
+--> las PropTypes me sirve literalemte para definirle los tipos a las properties
+
+//
+-->cuando el funcional component se vuelve a renderizar y tenemos una funcion por fuera del funcitonal component esta no se vuelve a renderizar  
+
+//UseState - Hook
+--> Hooks son funciones 
+-->use --> significa que es un hook una regla 
+--> los hooks se usan con una constante -> para que accidentalmente nosotros no mutemos ese valor
+
+//HandleSubtract y HandleReset
+-->
